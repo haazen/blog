@@ -1,0 +1,58 @@
+# Site settings
+title: Mejor Mas Barato
+email: haazendr@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.xatala.com" # the base hostname & protocol for your site
+#github_username:  maribeltg
+#twitter_username: dospiruletas
+#facebook_username: scrapbookingdospiruletas
+#instagram_username: dos_piruletas
+#pinterest_username: dospiruletas
+
+
+# Layout settings
+header_type: default  # values [ drawer, default ]
+post_type: highlight #highlight   # values [ highlight, default ]
+pagination_type: default #default  # values [ ops, default ]
+paginate: 6 
+permalink: /:categories/:title
+
+#gems:
+#  - jekyll-archives
+#
+#jekyll-archives:
+#  enabled: 'all'
+#  layout: 'archive'
+#  permalinks:
+#    year: '/:year/'
+#    month: '/:year/:month/'
+#    day: '/:year/:month/:day/'
+#    tag: '/tag/:name/'
+#    category: '/category/:name/'
+  
+more_vert:
+  option1:
+    name: Cool Option 1
+    link: www.myawesomelink.com
+  option2:
+    name: Cool Option 2
+    link: www.myawesomelink.com
+  option3:
+    name: Cool Option 3
+    link: www.myawesomelink.com
+
+google_analytics_tracking_id: 'UA-72578041-1'
+
+pages_have_comments: false
+disqus: false
+disqus_shortname: 'dospiruletas'
+
+# Build settings
+markdown: kramdown
+
+excerpt_separator: "<!-- more -->"
+#excerpt_separator: "<a name='more'></a>"

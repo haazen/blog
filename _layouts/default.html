@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    <!-- Start Layout -->
+    {% if site.header_type == 'drawer' %}
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-layout--fixed-drawer">
+      {% include header_fixed.html %}
+    {% else %}
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      {% include header.html %}
+    {% endif %}
+
+    {{ content }}
+    {% include footer.html %}
+
+    </div>
+    <!-- /End Layout -->
+
+    {% include google-analytics %}
+    <!-- Material Design Lite js Library -->
+    <script type="text/javascript" src="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.min.js"></script>
+    {% if site.pagination_type == 'ops' %}
+    <script rel="javascript" type="text/javascript" src="{{ "/js/site.js" | prepend: site.baseurl }}"></script>
+    {% endif %}
+    <!--script rel="javascript" type="text/javascript" src="{{ "/js/search.js" | prepend: site.baseurl }}"></script-->
+    <!--script rel="javascript" type="text/javascript">
+      superSearch({
+	searchFile: "{{ "/feed.xml" | prepend: site.baseurl }}",
+        searchSelector: '#js-search', // CSS Selector for search container element.
+        inputSelector: '#js-search__input', // CSS selector for <input>
+        resultsSelector: '#js-search__results' // CSS selector for results container
+      });
+    </script-->
+    <div style="display: none;" id="catapult-cookie-bar">We use cookies to improve your website experience <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" id="catapultCookie" tabindex="1" onclick="catapultAcceptCookies();">OK</button> <a tabindex="1" href="{{"/about/cookie-policy/" | prepend: site.url }}">More info</a></div>
+    <script>
+	//All the cookie setting stuff
+	function catapultSetCookie(cookieName, cookieValue, nDays) {
+		var today = new Date();
+		var expire = new Date();
+		if (nDays==null || nDays==0) nDays=1;
+		expire.setTime(today.getTime() + 3600000*24*nDays);
+		document.cookie = cookieName+"="+escape(cookieValue)+ ";expires="+expire.toGMTString()+"; path=/";
+	}
+	function catapultReadCookie(cookieName) {
+		var theCookie=" "+document.cookie;
+		var ind=theCookie.indexOf(" "+cookieName+"=");
+		if (ind==-1) ind=theCookie.indexOf(";"+cookieName+"=");
+		if (ind==-1 || cookieName=="") return "";
+		var ind1=theCookie.indexOf(";",ind+1);
+		if (ind1==-1) ind1=theCookie.length; 
+		return unescape(theCookie.substring(ind+cookieName.length+2,ind1));
+	}
+	function catapultDeleteCookie(cookieName) {
+		var today = new Date();
+		var expire = new Date() - 30;
+		expire.setTime(today.getTime() - 3600000*24*90);
+		document.cookie = cookieName+"="+escape(cookieValue)+ ";expires="+expire.toGMTString();
+	}
+	function catapultAcceptCookies() {
+		catapultSetCookie('catAccCookies', true, 30);
+		document.getElementById('catapult-cookie-bar').style.display = 'none';
+		//jQuery("html").css("margin-top","0");
+	}
+	if (!catapultReadCookie("catAccCookies")) {
+		document.getElementById('catapult-cookie-bar').style.display = 'block';
+	}
+    </script>
+  </body>
+
+</html>

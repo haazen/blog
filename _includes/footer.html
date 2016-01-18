@@ -1,0 +1,38 @@
+<footer class="mdl-mega-footer">
+  <div class="mdl-mega-footer__middle-section">
+
+    <div class="mdl-mega-footer__drop-down-section">
+      <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+      <h1 class="mdl-mega-footer__heading">{{ site.title }}</h1>
+      <ul class="mdl-mega-footer__link-list">
+       {% for page in site.pages %}
+           {% if page.title and page.crafts != true %}
+              <li><a href="{{ page.url | prepend: site.url }}">{{page.title}}</a></li>
+           {% endif %}
+       {% endfor %}
+      </ul>
+    </div>
+
+    <div class="mdl-mega-footer__drop-down-section">
+      <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+      <h1 class="mdl-mega-footer__heading">Crafts</h1>
+      <ul class="mdl-mega-footer__link-list">
+       {% for page in site.pages %}
+           {% if page.title and page.crafts and page.hidden != true %}
+              <li><a href="{{ page.url | prepend: site.url }}">{{page.title}}</a></li>
+           {% endif %}
+       {% endfor %}
+      </ul>
+    </div>
+
+    <div class="mdl-mega-footer__drop-down-section">
+      <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+      <h1 class="mdl-mega-footer__heading">Equipos de Diseño</h1>
+      <ul class="mdl-mega-footer__link-list">
+         <li><a href="http://www.kimidori.es" target="_blank">Kimidori</a></li>
+         <li><a href="http://ojosdepapelscrap.org" target="_blank">Ojos de Papel</a></li>
+         <li><a href="http://projectlifecafe.blogspot.com" target="_blank">Project Life Café</a></li>
+      </ul>
+    </div>
+
+</footer>
