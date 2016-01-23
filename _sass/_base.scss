@@ -1,6 +1,13 @@
 body {
     font-family: 'Roboto', 'Helvetica', sans-serif;
 }
+
+.mdl-layout__container {
+    background-image: url('http://smartphone2016.com/wp-content/uploads/2015/12/resets.png');
+    background-repeat: repeat;
+    background-position: top left;
+    background-attachment: scroll;
+}
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
