@@ -14,13 +14,14 @@ Sin mas dilación les dejo con mi selección de recomendaciones:
 
 ### Huawei Nexus 6P - Smartphone de 5.7" (Amoled QHD, Qualcomm Snapdragon 810 1.5 GHz, 3 GB RAM, cámara de 13 MP/8 MP, Android 6.0) plateado
 
-<a rel="nofollow" href="http://www.amazon.es/gp/product/B017EOVF8U/ref=as_li_ss_tl?ie=UTF8&camp=3626&creative=24822&creativeASIN=B017EOVF8U&linkCode=as2&tag=materiascrapb-21"> <img style="width:initial" src="http://ecx.images-amazon.com/images/I/41V9MizbQ5L.jpg"/></a><img src="http://ir-es.amazon-adsystem.com/e/ir?t=materiascrapb-21&l=as2&o=30&a=B0154YH8LA" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+<a rel="nofollow" href="http://www.amazon.es/gp/product/B017EOVF8U/ref=as_li_ss_tl?ie=UTF8&camp=3626&creative=24822&creativeASIN=B017EOVF8U&linkCode=as2&tag=materiascrapb-21"> <img style="width:initial" src="{{site.baseurl}}/img/6p.jpg"/></a><img src="http://ir-es.amazon-adsystem.com/e/ir?t=materiascrapb-21&l=as2&o=30&a=B0154YH8LA" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
 ### LG G4 - Smartphone libre Android (pantalla 5.5", cámara 16 Mp, 32 GB, Dual-Core 1.8 GHz, 3 GB RAM), color gris metálico
 
 (24% de descuento con este link)
 
-<a rel="nofollow" href="http://www.amazon.es/gp/product/B00YNM5HCC/ref=as_li_ss_tl?ie=UTF8&camp=3626&creative=24822&creativeASIN=B00YNM5HCC&linkCode=as2&tag=materiascrapb-21"> <img style="width:initial" src="http://ecx.images-amazon.com/images/I/81qFh03-5fL._SY550_.jpg"/></a><img src="http://ir-es.amazon-adsystem.com/e/ir?t=materiascrapb-21&l=as2&o=30&a=B0154YH8LA" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+<a rel="nofollow" href="http://www.amazon.es/gp/product/B00YNM5HCC/ref=as_li_ss_tl?ie=UTF8&camp=3626&creative=24822&creativeASIN=B00YNM5HCC&linkCode=as2&tag=materiascrapb-21"> <img style="width:initial" src="http://ecx.images-amazon.com/images/I/81qFh03-5fL._SY550_.jpg"/></a><img src="http://ir-es.amazon-adsystem.com/e/ir?t=materiascrapb-21&l=as2&o=30&a=B0154YH8LA
+" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
 
 ### Motorola Moto X Style - Smartphone de 5.7" (Hexa Core a 1.8 GHz, 3 GB de RAM, 32 GB de memoria interna, Android), color blanco
